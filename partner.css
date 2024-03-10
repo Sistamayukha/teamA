@@ -1,0 +1,237 @@
+body
+{
+    background: rgba(248, 245, 240, 1);
+}
+.partner_sec
+{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    background: rgba(248, 245, 240, 1);
+
+}
+.vectorleft
+{
+    width: 408.34px;
+    height: 53.21px;
+    rotate: -3.31 deg;
+    color: rgba(255, 96, 230, 1);
+    order: 1;
+}
+.content_mid
+{
+    position: relative;
+    width: 922px;
+    height: 134px;  
+    order: 2;
+    left: -200px;
+    top: -15px
+}
+.title
+{
+    font-family: "SF Pro Display";
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 67px;
+    letter-spacing: 0em;
+    text-align: center;  
+    white-space: nowrap;
+}
+.partner_content
+{
+    position: absolute;
+    display: flex;
+    order: 3;
+    width: 1192px;
+    height: 340px;
+    padding: 69px, 0px, 70px, 104px;
+    border-radius: 24px;
+    background: rgba(255, 255, 255, 1);
+    margin-left: 150px;
+    margin-top: 200px;
+    
+}
+.title_desc
+{
+    width: Hug (530px);
+    height: Hug (201px);
+    top: 69px;
+    left: 104px;
+    gap: 16px;
+    margin-left: 90px;
+    margin-top: 40px;
+}
+.title_part
+{
+    width: 192px;
+    height: 57px;
+    font-family: "SF Pro Display";
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 57px;
+    letter-spacing: 0em;
+    text-align: center;    
+}
+.desc
+{
+    width: 530px;
+    height: 128px;
+    font-family: "SF Pro Text";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+}
+.partner_cards
+{
+    display: flex;
+    width: Hug (840px);
+    height: Hug (196px);
+    top: 72px;
+    left: 668px;
+    gap: 32px;
+    padding-top: 72px;
+    padding-bottom: 72px;
+}
+.partner_card1
+{
+    width: Hug (404px);
+    height: Hug (196px);
+    padding: 24px;
+    border-radius: 16px;
+    gap: 12px;
+    background: rgba(255, 96, 230, 1);
+}
+.logo_time1
+{
+    display: flex;
+    width: Fixed (356px);
+    height: Hug (40px);
+    justify-content: space-between;
+    
+}
+.logo_twitter
+{
+
+    width: 40px;
+    height: 40px;
+    padding: 10px, 7.77px, 9.5px, 7px;
+    border-radius: 100px;
+    margin-top: -5px;
+}
+.time1
+{
+    margin-top: -1px;
+    width: 149px;
+    height: 30px;
+    font-family:"SF Pro Text";
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: -0.01em;
+    text-align: left;
+    margin-bottom:-10px;
+      
+}
+.desc_card1
+{
+    width: 356px;
+    height: 96px;
+    font-family:"SF Pro Text";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+}
+.partner_card2
+{
+    width: Hug (404px);
+    height: Hug (196px);
+    padding: 24px;
+    border-radius: 16px;
+    gap: 12px;
+    background: rgba(255, 96, 230, 1);
+}
+.logo_time2
+{
+    display: flex;
+    width: Fixed (356px);
+    height: Hug (40px);
+    justify-content: space-between;
+    
+}
+.logo_pin
+{
+    margin-top: -9px;
+    width: 40px;
+    height: 40px;
+    
+}
+
+.logo_pin1
+{
+    width: 39.97px;
+    height: 40.03px;
+    /* background: rgba(230, 0, 25, 1); */
+}
+.logo_pin2
+{
+    width: 40px;
+    height: 40px;
+    background: rgba(255, 255, 255, 1); 
+}
+.time2
+{
+    margin-top: -1px;
+    width: 144px;
+    height: 30px;
+    font-family:"SF Pro Text";
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: -0.01em;
+    text-align: left;
+}
+.desc_card2
+{
+    width: 356px;
+    height: 96px;
+    font-family: SF Pro Text;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color   : rgba(31, 57, 44, 1);
+    margin-top: -25px;
+    
+}
+
+@media (min-width: 768px) {
+    .partner_sec {
+        flex-direction: row;
+    }
+
+    .vectorleft, .content_mid, .partner_cards {
+        flex: 1;
+    }
+
+    .content_mid {
+        margin-left: 20px; /* Adjust the margin as needed */
+    }
+
+    .partner_cards {
+        margin-top: 20px; /* Adjust the margin as needed */
+    }
+}
+
+.line-break {
+    display: block;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
